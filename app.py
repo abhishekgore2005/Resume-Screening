@@ -68,7 +68,7 @@ def send_email(to_email, subject, body):
 
 # --- STREAMLIT UI ---
 st.set_page_config(page_title="ASAP Resume Screener", layout="wide")
-st.title("🚀 Bulk Resume Screening & Automation System")
+st.title("🚀 ASAP Resume Screening & Automation System")
 
 col1, col2 = st.columns(2)
 col1.metric("Cutoff Score", f"{CUTOFF_SCORE}%")
@@ -192,4 +192,5 @@ The Recruitment Team
 
 elif not uploaded_files:
     st.info("Waiting for PDF uploads...")
+
 
