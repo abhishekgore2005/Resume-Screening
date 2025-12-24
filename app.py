@@ -67,7 +67,7 @@ def send_email(to_email, subject, body):
         return False
 
 # --- STREAMLIT UI ---
-st.set_page_config(page_title="Bulk Resume Screener", layout="wide")
+st.set_page_config(page_title="ASAP Resume Screener", layout="wide")
 st.title("🚀 Bulk Resume Screening & Automation System")
 
 col1, col2 = st.columns(2)
@@ -192,3 +192,4 @@ The Recruitment Team
 
 elif not uploaded_files:
     st.info("Waiting for PDF uploads...")
+
